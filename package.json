@@ -1,0 +1,48 @@
+{
+  "name": "react-fireshop-ts",
+  "version": "1.0.0",
+  "description": "Online shop using React.js, Redux, TypeScript and Firebase",
+  "main": "index.js",
+  "scripts": {
+    "start": "node tools/scripts/startDev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunterh/react-fireshop-ts.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "TypeScript",
+    "firebase"
+  ],
+  "author": "Gunter Hillenbrand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunterh/react-fireshop-ts/issues"
+  },
+  "homepage": "https://github.com/gunterh/react-fireshop-ts#readme",
+  "dependencies": {
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "awesome-typescript-loader": "^3.1.2",
+    "html-webpack-plugin": "^2.28.0",
+    "open-browser-webpack-plugin": "0.0.5",
+    "react-dev-utils": "^0.5.2",
+    "source-map-loader": "^0.2.1",
+    "tslint": "^5.0.0",
+    "tslint-react": "^2.5.0",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
