@@ -19,7 +19,6 @@ function printFileSizes(stats) {
     .toJson()
     .assets
     .filter(asset => /\.(js|css)$/.test(asset.name)) // only include js and css
-    .filter(asset => /help/.test(path.dirname(asset.name)) === false) // exclude help files
     .map(asset => {
       var filePath = paths.appBuild + '/' + asset.name;
       var fileStats = fs.statSync(filePath);
